@@ -7,7 +7,7 @@ using HttpClient client = new()
     BaseAddress = new Uri("https://api.github.com/")
 };
 
-// GitHub API kräver en User-Agent
+ //GitHub API kräver en User-Agent
 client.DefaultRequestHeaders.Add("User-Agent", "KonsumeraWebApiLab4APP");
 
 
@@ -21,7 +21,7 @@ foreach (var p in posts)
 
 
 
-//ZIPPOPOTAMUS
+//ZIPPOPOTAMUS:
 using HttpClient zippoClient = new()
 {
     BaseAddress = new Uri("https://api.zippopotam.us/")
